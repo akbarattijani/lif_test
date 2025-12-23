@@ -48,7 +48,6 @@ PostgreSQL or MySQL database.
 
 ### Get All Task
 **GET** `/api/v1/tasks`
-**Headers Required:**
 ```text
 Authorization: Bearer <token>
 ```
@@ -120,14 +119,6 @@ Authorization: Bearer <token>
 ```json
 {
   "is_completed": true
-}
-```
-
-**Response:**
-```json
-{
-  "code": 200, 
-  "message": "success"
 }
 ```
 
