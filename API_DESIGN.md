@@ -30,6 +30,7 @@ PostgreSQL or MySQL database.
 
 ### Authentication
 **POST** `/api/v1/auth/login`
+
 **Request:**
 ```json
 {
@@ -111,7 +112,7 @@ Authorization: Bearer <token>
 ```
 
 ### Update Task Status
-**PUT** `/api/v1/task/status/:id`
+**PATCH** `/api/v1/task/status/:id`
 ```text
 Authorization: Bearer <token>
 ```
